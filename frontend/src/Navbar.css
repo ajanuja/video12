@@ -1,0 +1,46 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #41417A;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  height:13vh;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  display: flex;
+}
+
+.navbar-brand {
+  color: white;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+.navbar-icon {
+  color: white;
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  margin-top: 60px; /* Adjust margin to avoid overlap with fixed navbar */
+}
+
+.content-container {
+  margin-left: 160px; /* Adjust this value based on your sidebar width */
+  padding: 20px;
+  flex-grow: 1;
+}
